@@ -20,25 +20,29 @@ $ npm install eslint-plugin-study-es6 --save-dev
 
 ## Usage
 
-Add `study-es6` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
-
+Now, you may need to set up your ESLint configuration. If you don't have an config file. create `.eslintrc.json` in your root directory. And copy:
 ```json
 {
-    "plugins": [
-        "study-es6"
-    ]
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "plugins": ["study-es6"],
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "rules": {
+        "study-es6/spread-operator": "warn",
+        "study-es6/arrow-function": "warn",
+        "study-es6/object-shorthand": "warn",
+        "study-es6/let-declaration": "warn"
+    }
 }
 ```
 
-
-Then configure the rules you want to use under the rules section.
-
-```json
-{
-    "rules": {
-        "study-es6/rule-name": 2
-    }
-}
+After configuring your settings. Run ESLint:
+```
+$ ./node_modules/.bin/eslint test.js
 ```
 
 ## Supported Rules
