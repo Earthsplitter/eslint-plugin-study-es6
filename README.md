@@ -40,7 +40,8 @@ Now, you may need to set up your ESLint configuration. If you don't have an conf
         "study-es6/spread-operator": "warn",
         "study-es6/arrow-function": "warn",
         "study-es6/object-shorthand": "warn",
-        "study-es6/let-declaration": "warn"
+        "study-es6/let-declaration": "warn",
+        "study-es6/template-string": "warn"
     }
 }
 ```
@@ -56,7 +57,7 @@ $ ./node_modules/.bin/eslint test.js
 2. `let-declaration`
 3. `object-shorthand`
 4. `spread-operator`
-
+5. `template-string`
 
 
 
