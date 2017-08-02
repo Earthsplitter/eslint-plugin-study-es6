@@ -34,15 +34,12 @@ You can install [ESLint extension](https://marketplace.visualstudio.com/items?it
 
 **For Sublime Text users**:
 
-You can install [ESLint](https://packagecontrol.io/packages/ESLint)
+You can install [Sublime​Linter](https://packagecontrol.io/packages/SublimeLinter) and [Sublime​Linter-contrib-eslint](https://packagecontrol.io/packages/SublimeLinter-contrib-eslint)
 
 1. Open “Command Pallet” Ctrl + Shift + p (Cmd + Shift + p on OSX)
 2. Select “Package Control: Install Package”
-3. Select ESLint
-4. After setting up (see usage following), you can run ESLint in Sublime:
-    1. Open the context menu (right-click), and Select ESLint
-    2. Open “Command Pallet” and Select ESLint
-    3. keyboard shortcut: Ctrl + Alt + e (Cmd + Option + e on OSX)
+3. Select these two package
+4. After setting up (see usage following), the warning message will show at the left of line number
 
 ## Usage
 
