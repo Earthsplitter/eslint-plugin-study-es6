@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-study-es6",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "show es6 syntax recommends",
   "keywords": [
     "eslint",
