@@ -26,11 +26,12 @@ $ npm install eslint-plugin-study-es6 --save-dev
 ## Usage
 
 **For VSCode users**: 
-```
+
 you can install [ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) for VSCode.
 
-Open Extensions tab and search `ESLint`, install and reload window.
-```
+1. Open Extensions tab and search `ESLint`, install and reload window.
+2. After setting up, you will see messages in the problem panel in VSCode.
+
 
 Now, you may need to set up your ESLint configuration. If you don't have an config file. create `.eslintrc.json` in your project directory(same as `package.json` above). And copy:
 ```json
