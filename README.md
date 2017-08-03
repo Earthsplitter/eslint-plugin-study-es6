@@ -2,6 +2,8 @@
 
 show es6 syntax recommends
 
+If you think this plugin help you, please star it on [GitHub](https://github.com/Earthsplitter/eslint-plugin-study-es6). Thanks ^_^
+
 ## Installation
 
 Make sure you have initialize your project, i.e. , have a `package.json` file. Otherwise:
@@ -69,6 +71,7 @@ $ ./node_modules/.bin/eslint test.js
 3. `object-shorthand`
 4. `spread-operator`
 5. `template-string`
+6. `default-param`
 
 
 
